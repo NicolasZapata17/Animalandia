@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.form-register {
+    width: 450px;
+    padding: 30px;
+    background-color: #bde0fe;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    color: #000;
+    font-family: 'Calibri';
+    box-shadow: 7px 13px 37px #004e98;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #bde0fe;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 3px solid #004e98;
+    font-family: 'Monserrat' sans-serif;
+    font-size: 20px;
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.form-register a{
+    text-decoration: none;
+    color: #000;
+}
+
+.form-register a:hover{
+    text-decoration: underline;
+    color: #004e98;
+}
+
+.form-register .button {
+    width: 100%;
+    background: #004e98;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    margin: 20px 0px;
+    font-size: 17px;
+    font-family: 'Monserrat', sans-serif;
+}
+
+* {
+	font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+
+.navbar-brand {
+	background-color: #93D9F8;
+	border-radius: 20px;
+	border: 3px groove black;
+	width: 350px;
+    height: 130px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	display: inline-block;
+	box-shadow: 4px 4px 4px 2px #127475;
+
+}	
+
+.navbar-brand:hover {
+	background-color:#1f7a8c;
+	color: #fff;
+}
+
+div {
+	height: 200px;
+	background-color: #bde0fe;
+}
+
+.Ingreso {
+	border-radius: 100px;
+	font-size: 15px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    float: right;
+	font-style: oblique;	
+	border: 3px solid #93D9F8;
+	background-color: #fff;
+    text-decoration: none;
+}
+
+.Ingreso:hover{
+	background-color:#1f7a8c;
+	color: #fff;
+    text-decoration: underline;
+}
+
+#BarraBotones {
+	background-color: #c0c0c0;
+	height: 60px;
+    padding: 5px;
+
+}
+
+.Botones {
+    /*border-radius: 40px 40px 40px 40px;*/
+    height: 50px;
+	font-size: 15px;
+	font-family: 'Edu VIC WA NT Beginner', cursive;
+	font-style: oblique;
+	display: inline-block;
+	padding: 12px;
+	padding-left: 110px;
+	padding-right: 110px;
+    margin-left: 15px;
+	background-color: #c0c0c0;
+    text-decoration: none;
+    color: #000;
+}
+
+.Botones:hover {
+	background-color:#1f7a8c;
+	color: #fff;
+    text-decoration: underline;
+}
+
+#footer {
+	margin: 0px;
+	padding: 0px;
+	background-color:  #bde0fe;
+	height: 250px;
+}
+
+.lista {
+	padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.sedes {
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#socialmedia {
+    display: inline-block;
+    float: right;
+    margin-right: 90px;
+    padding-top: 50px;
+}
+
+#socialmedia a{
+    text-decoration: none;
+    color: #000;
+}
+
+#socialmedia a:hover{
+    text-decoration: underline;
+    background: #a6a2a2;
+    padding: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-radius: 5px;
+}
+
+#footer {
+    height: auto;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}

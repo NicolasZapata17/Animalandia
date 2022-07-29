@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+	background-color: #93D9F8;
+	border-radius: 20px;
+	border: 3px groove black;
+	width: 350px;
+    height: 130px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	display: inline-block;
+	box-shadow: 4px 4px 4px 2px #127475;
+
+}	
+
+.navbar-brand:hover {
+	background-color:#1f7a8c;
+	color: #fff;
+}
+
+#navbar {
+	height: 200px;
+	background-color: #bde0fe;
+}
+
+.Ingreso {
+	border-radius: 100px;
+	font-size: 15px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    float: right;
+	font-style: oblique;	
+	border: 3px solid #93D9F8;
+	background-color: #fff;
+    text-decoration: none;
+}
+
+.Ingreso:hover{
+	background-color:#1f7a8c;
+	color: #fff;
+    text-decoration: underline;
+}
+
+#BarraBotones {
+	background-color: #c0c0c0;
+	height: 60px;
+    padding: 5px;
+
+}
+
+.Botones {
+    height: 50px;
+	font-size: 15px;
+	font-family: 'Edu VIC WA NT Beginner', cursive;
+	font-style: oblique;
+	display: inline-block;
+	padding: 12px;
+	padding-left: 110px;
+	padding-right: 110px;
+    margin-left: 15px;
+	background-color: #c0c0c0;
+    text-decoration: none;
+    color: #000;
+}
+
+.Botones:hover {
+	background-color:#1f7a8c;
+	color: #fff;
+    text-decoration: underline;
+}
+
+-----------------------------------------------------------------------------------
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #03aFFF;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-auto-rows: minmax(200px, auto);
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    gap: 20px;
+    padding: 10px;
+    grid-auto-flow: dense;
+}
+
+@media (min-width: 600px) {
+
+.wide {
+    grid-column: span 2;
+}
+
+.tall {
+    grid-row: span 2;
+}
+}
+-----------------------------------
+#footer {
+	margin: 0px;
+	padding: 0px;
+	height: 250px;
+}
+
+.lista {
+	padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.sedes {
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#socialmedia {
+    display: inline-block;
+    float: right;
+    margin-right: 90px;
+    padding-top: 50px;
+}
+
+#socialmedia a{
+    text-decoration: none;
+    color: #000;
+}
+
+#socialmedia a:hover{
+    text-decoration: underline;
+    background: #a6a2a2;
+    padding: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-radius: 5px;
+}
+
+#footer {
+    height: auto;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: #bde0fe
+}

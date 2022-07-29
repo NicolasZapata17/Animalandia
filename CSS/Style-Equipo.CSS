@@ -1,0 +1,228 @@
+* {
+	font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+
+.navbar-brand {
+	background-color: #93D9F8;
+	border-radius: 20px;
+	border: 3px groove black;
+	width: 350px;
+    height: 130px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	display: inline-block;
+	box-shadow: 4px 4px 4px 2px #127475;
+
+}	
+
+.navbar-brand:hover {
+	background-color:#1f7a8c;
+	color: #fff;
+}
+
+#navbar {
+	height: 200px;
+	background-color: #bde0fe;
+}
+
+.Ingreso {
+	border-radius: 100px;
+	font-size: 15px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    float: right;
+	font-style: oblique;	
+	border: 3px solid #93D9F8;
+	background-color: #fff;
+    text-decoration: none;
+}
+
+.Ingreso:hover{
+	background-color:#1f7a8c;
+	color: #fff;
+    text-decoration: underline;
+}
+
+#BarraBotones {
+	background-color: #c0c0c0;
+	height: 60px;
+    padding: 5px;
+
+}
+
+.Botones {
+    /*border-radius: 40px 40px 40px 40px;*/
+    height: 50px;
+	font-size: 15px;
+	font-family: 'Edu VIC WA NT Beginner', cursive;
+	font-style: oblique;
+	display: inline-block;
+	padding: 12px;
+	padding-left: 100px;
+	padding-right: 100px;
+    margin-left: 30px;
+	background-color: #c0c0c0;
+    text-decoration: none;
+    color: #000;
+}
+
+.Botones:hover {
+	background-color:#1f7a8c;
+	color: #fff;
+    text-decoration: underline;
+}
+
+#nuestro-equipo {
+    background-color: #fff;
+    text-align: center;    
+}
+
+.equipo-contenedor {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 20px;
+
+}
+
+.equipo-1 {
+    border: 3px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.equipo-1 img {
+    width: 270px;
+    border: 4px solid #bfdbf7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+
+}
+
+.equipo-1 h5 {
+    font-size: 15px;
+}
+
+.equipo-2 {
+    border: 3px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.equipo-2 img {
+    width: 270px;
+    border: 4px solid #bfdbf7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+.equipo-2 h5 {
+    font-size: 15px;
+}
+
+.equipo-3 {
+    border: 3px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.equipo-3 img {
+    width: 270px;
+    border: 4px solid #bfdbf7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+.equipo-3 h5 {
+    font-size: 15px;
+}
+
+.equipo-4 {
+    border: 3px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.equipo-4 img {
+    width: 270px;
+    border: 4px solid #bfdbf7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+.equipo-4 h5 {
+    font-size: 15px;
+}
+
+#footer {
+	margin: 0px;
+	padding: 0px;
+	background-color:  #bde0fe;
+	height: 250px;
+}
+
+.lista {
+	padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.sedes {
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#socialmedia {
+    display: inline-block;
+    float: right;
+    margin-right: 90px;
+    padding-top: 50px;
+}
+
+#socialmedia a{
+    text-decoration: none;
+    color: #000;
+}
+
+#socialmedia a:hover{
+    text-decoration: underline;
+    background: #a6a2a2;
+    padding: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-radius: 5px;
+}
+
+#footer {
+    height: auto;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
