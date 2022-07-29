@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+
 * {
 	font-family: 'Edu VIC WA NT Beginner', cursive;
 }
@@ -50,6 +54,7 @@
 }
 
 #BarraBotones {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
 	background-color: #c0c0c0;
 	height: 60px;
     padding: 5px;
