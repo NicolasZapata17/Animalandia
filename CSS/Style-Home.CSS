@@ -195,15 +195,14 @@ img {
 	font-family: 'Edu VIC WA NT Beginner', cursive;
 	font-style: oblique;
 	font-size: 15px;
+	height: auto;
 }
 
 .lista {
 	padding-top: 10px;
 	font-family: 'Edu VIC WA NT Beginner', cursive;
 	font-style: oblique;
-	font-size: 15px;
-	text-align: center;
-	
+	font-size: 12px;
 }
 
 .sedes {
@@ -215,7 +214,6 @@ img {
 #socialmedia {
 	float: right;
     margin-right: 90px;
-    padding-top: 0px;
 }
 
 #socialmedia a{

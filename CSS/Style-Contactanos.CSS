@@ -149,11 +149,11 @@ div {
 	padding: 0px;
 	background-color:  #bde0fe;
 	height: 250px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 
 .lista {
 	padding-top: 10px;
-	font-family: 'Montserrat', sans-serif;
 }
 
 .sedes {

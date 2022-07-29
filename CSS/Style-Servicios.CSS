@@ -123,12 +123,12 @@ article {
 	margin: 0px;
 	padding: 0px;
 	background-color:  #bde0fe;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
 	height: 250px;
 }
 
 .lista {
 	padding-top: 10px;
-	font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
 }
 
